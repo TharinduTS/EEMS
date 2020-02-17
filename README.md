@@ -1,7 +1,7 @@
 # EEMS
 ## Changing VCF file to be accessible by bed2diffs#
 First chromosome names were changed to numbers to make it accessible by plinkio using
-'''bash
+```bash
 sed 's/Chr1L/1/' 0 > 1
 sed 's/Chr1S/2/' 1 > 2
 sed 's/Chr2L/3/' 2 > 3
@@ -20,6 +20,6 @@ sed 's/Chr8L/15/' 14 > 15
 sed 's/Chr8S/16/' 15 > 16
 sed 's/Chr9_10L/17/' 16 > 17
 sed 's/Chr9_10S/18/' 17 > 18(18 gave the file with all chromosomes renamed).
-''
-Copied the file to compute canada server.
+```
+#Copied the file to compute canada server.
 
