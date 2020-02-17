@@ -19,7 +19,19 @@ sed 's/Chr7S/14/' 13 > 14
 sed 's/Chr8L/15/' 14 > 15
 sed 's/Chr8S/16/' 15 > 16
 sed 's/Chr9_10L/17/' 16 > 17
-sed 's/Chr9_10S/18/' 17 > 18(18 gave the file with all chromosomes renamed).
+sed 's/Chr9_10S/18/' 17 > 18
 ```
+(18 gave the file with all chromosomes renamed).
 #Copied the file to compute canada server.
+
+##converting VCF to PLINK
+Search plink and load/cheack loadedmodules
+```
+module spider plink
+module load plink/1.9b_4.1-x86_64
+module list
+```
+#convert VCF to PLINK
+plink --vcf borealis.vcf --double-id
+
 
