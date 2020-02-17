@@ -50,5 +50,10 @@ module list
 #convert VCF to PLINK
 ```
 plink --vcf final.vcf
+```
+#convert bed2diffs
+```
+/scratch/premacht/testing2/eems/bed2diffs/src/bed2diffs_v1 --bfile <bed_file_name_without_format>
+```
 
 
