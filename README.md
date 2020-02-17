@@ -49,6 +49,6 @@ module list
 ```
 #convert VCF to PLINK
 ```
-plink --vcf borealis.vcf
+plink --vcf final.vcf
 
 
