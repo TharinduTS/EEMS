@@ -1,7 +1,7 @@
 # EEMS
 ## Changing VCF file to be accessible by bed2diffs#
 First chromosome names were changed to numbers to make it accessible by plinkio using
-''bash
+'''bash
 sed 's/Chr1L/1/' 0 > 1
 sed 's/Chr1S/2/' 1 > 2
 sed 's/Chr2L/3/' 2 > 3
