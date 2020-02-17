@@ -23,6 +23,14 @@ sed 's/Chr9_10S/18/' 17 > 18
 ```
 (18 gave the file with all chromosomes renamed).
 #Copied the file to compute canada server.
+#Load vcftools
+```
+module load vcftools
+```
+Filter only chromosomes
+```
+--vcf borealis.vcf --chr 1 --chr 2 --chr 3 --chr 4 --chr 5 --chr 6 --chr 7 --chr 8 --chr 9 --chr 10 --chr 11 --chr 12 --chr 13 --chr 14 --chr 15 --chr 16 --chr 17 --chr 18 --recode --out borealis_subset_chr1-18
+```
 
 ##converting VCF to PLINK
 Search plink and load/cheack loadedmodules
