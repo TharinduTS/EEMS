@@ -32,6 +32,7 @@ module load plink/1.9b_4.1-x86_64
 module list
 ```
 #convert VCF to PLINK
+```
 plink --vcf borealis.vcf --double-id
 
 
