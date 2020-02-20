@@ -51,6 +51,9 @@ module list
 ```
 plink --vcf final.vcf
 ```
+
+# load eigen and boost the same way
+#
 #convert bed2diffs
 ```
 /scratch/premacht/testing2/eems/bed2diffs/src/bed2diffs_v1 --bfile <bed_file_name_without_format>
