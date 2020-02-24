@@ -58,5 +58,12 @@ plink --vcf final.vcf
 ```
 /scratch/premacht/testing2/eems/bed2diffs/src/bed2diffs_v1 --bfile <bed_file_name_without_format>
 ```
+##second try
 
+#subsetted only Chromosomes using
+
+vcftools --vcf mpileup_raw_wildBorealis_AustinGenome.vcf --chr Chr1L --chr Chr1S --chr Chr2L --chr Chr2S --chr Chr3L --chr Chr3S --chr Chr4L --chr Chr4S --chr Chr5L --chr Chr5S --chr Chr6L --chr Chr6S --chr Chr7L --chr Chr7S --chr Chr8L --chr Chr8S --chr Chr9_10L --chr Chr9_10S --recode --recode-INFO-all --out subset_chrs
+
+# removed Sca leftovers using
+sed '/Sca*/d' ./subset_chrs.recode.vcf > Scarm
 
