@@ -67,3 +67,6 @@ vcftools --vcf mpileup_raw_wildBorealis_AustinGenome.vcf --chr Chr1L --chr Chr1S
 # removed Sca leftovers using
 sed '/Sca*/d' ./subset_chrs.recode.vcf > Scarm
 
+Get sample names from a vcf
+vcf-query -l input.vcf
+
