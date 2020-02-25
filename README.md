@@ -70,3 +70,8 @@ sed '/Sca*/d' ./subset_chrs.recode.vcf > Scarm
 Get sample names from a vcf
 vcf-query -l input.vcf
 
+# removing individuals
+
+vcf-query -l mpileup_raw_wildBorealis_AustinGenome.vcf | grep 'Xv'| tr -d '\n'
+
+
